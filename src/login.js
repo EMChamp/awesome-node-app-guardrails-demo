@@ -1,7 +1,9 @@
 var db = require('../models');
 
+print("hi")
+print("hi")
 module.exports.userSearch = function (req, res) {
-  print("hi")
+
 	var sqlq1 = "SELECT name,id FROM Users WHERE login='" + req.body.login + "'";
 	db.sequelize.query(sqlq1, {
 		model: db.User
