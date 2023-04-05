@@ -28,6 +28,6 @@ var db = require('../models');
 // 		})
 // 	})
 // }
-
+var password = '1234';
 
 
